@@ -24,14 +24,12 @@ with open("Sine_Values.csv", "w") as f:
     f.close()
 
 
-#funtion to calculate value of x
+# funtion to calculate value of x
 '''
 ans = 0
 while ans < 360:
     ans = ans + 9
     x.append(ans)
-
-print()
 '''
 x = [9, 18, 27, 36, 45, 54, 63, 72, 81, 90, 99, 108, 117, 126, 135, 144, 153, 162, 171, 174, 177, 180,
       189, 198, 207, 216, 225, 234, 243, 252, 261, 270, 279, 288, 297, 306, 315, 324, 333, 342, 351, 360]
@@ -43,7 +41,6 @@ plt.title("Sine_Wave")
 plt.xlabel("ANGLE")
 plt.ylabel("Sine Values")
 plt.show()
-
 
 
 
